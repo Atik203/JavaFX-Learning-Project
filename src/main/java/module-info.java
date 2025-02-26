@@ -5,4 +5,6 @@ module org.example.javafxlearningproject {
 
     opens main to javafx.fxml;
     exports main;
+    opens controller to javafx.fxml;
+    exports controller;
 }
