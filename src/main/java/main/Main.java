@@ -21,8 +21,12 @@ public class Main extends Application {
         Image icon = new Image("file:src/main/resources/images/planning.png");
 
         stage.setTitle("JavaFX Application");
+
+
+
         stage.getIcons().add(icon);
         stage.setScene(scene);
+
         stage.show();
     }
 
