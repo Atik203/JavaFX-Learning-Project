@@ -3,8 +3,9 @@ module org.example.javafxlearningproject {
     requires javafx.fxml;
 
 
-    opens main to javafx.fxml;
-    exports main;
+
     opens controller to javafx.fxml;
     exports controller;
+    exports servicee;
+    opens servicee to javafx.fxml;
 }
